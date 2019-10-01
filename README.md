@@ -1,4 +1,4 @@
-![Next.js Logo](../.github/images/next.svg)
+![Dashboard design shared by Edwork](tailwind-nextjs-dashboard.jpg)
 
 # Next.js Example
 
