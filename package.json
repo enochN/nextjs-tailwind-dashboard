@@ -3,11 +3,17 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "build:css": "postcss static/styles/base.styles.css -o static/styles/base.css",
+    "build:css:watch": "postcss static/styles/base.styles.css -o static/styles/base.css --watch",
     "start": "next start"
   },
   "dependencies": {
-    "next": "^9.0.2",
+    "@fullhuman/postcss-purgecss": "^1.3.0",
+    "autoprefixer": "^9.6.1",
+    "next": "^9.0.3",
+    "postcss-cli": "^6.1.3",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "tailwindcss": "^1.1.2"
   }
 }
