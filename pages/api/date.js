@@ -1,7 +1,7 @@
 export default (req, res) => {
   const date = new Date().toISOString()
     .replace(/T/, ' ')
-    .replace(/\..+/, '') 
+      .replace(/\..+/, '');
 
   res.json({ date })
 }
