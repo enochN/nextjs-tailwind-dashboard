@@ -1,15 +1,21 @@
 import React from 'react';
+import {withRouter} from "next/router";
+import Link from "next/link";
 
-function LinkAction({svg, label = "Label", href = "#"}) {
+function NavLink({svg, label = "Label", href = "#", router}) {
+    const {pathname} = router;
 
     return (
-        <a href={href} className="mt-4 flex items-center hover:bg-blue-900 px-1 py-2 rounded-lg focus:bg-blue-900">
-            {svg}
-            <span> {label} </span>
-        </a>
-    )
+        <Link href={href}>
+            <a className={"mt-4 flex items-center hover:bg-blue-900 px-1 py-2 rounded-lg focus:bg-blue-900 " + (pathname === href ? "bg-blue-900" : "")}>
+                {svg}
+                <span> {label} </span>
+            </a>
+        </Link>
+    );
 }
 
+const LinkAction = withRouter(NavLink);
 
 function Sidebar() {
     return <nav
