@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <Layout>
             <h2>
-                Home Screen
+                Settings
             </h2>
         </Layout>
 

@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <Layout>
             <h2>
-                Home Screen
+                Knowledge Base
             </h2>
         </Layout>
 
