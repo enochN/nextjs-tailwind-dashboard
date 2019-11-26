@@ -7,7 +7,7 @@ function NavLink({svg, label = "Label", href = "#", router}) {
 
     return (
         <Link href={href}>
-            <a className={"mt-4 flex items-center hover:bg-blue-900 px-1 py-2 rounded-lg focus:bg-blue-900 " + (pathname === href ? "bg-blue-900" : "")}>
+            <a className={"mt-4 flex items-center hover:bg-blue-900 px-3 py-2 rounded focus:bg-blue-900 " + (pathname === href ? "bg-blue-900" : "")}>
                 {svg}
                 <span> {label} </span>
             </a>
@@ -19,7 +19,7 @@ const LinkAction = withRouter(NavLink);
 
 function Sidebar() {
     return <nav
-        className="flex flex-col text-white h-full w-64 flex-shrink-0 p-4"
+        className="flex flex-col text-white h-full w-64 flex-shrink-0 py-4 px-1"
         style={{backgroundColor: "#001944"}}
     >
 
