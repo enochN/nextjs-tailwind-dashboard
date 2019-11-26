@@ -15,8 +15,8 @@ function ChatInterface() {
                 <input
                     className="flex-grow mr-2 h-full border rounded placeholder-gray-500 font-semibold p-4 bg-gray-300 focus:bg-white focus:outline-none"
                     placeholder="Type your message.." name="message" type="text"/>
-                <button className="block w-32 h-full bg-blue-700 text-white py-2 px-4 font-semibold rounded"
-                        type="submit">
+                <button className="block w-32 h-full bg-blue-600 text-white py-2 px-4 font-semibold rounded"
+                        type="submit" style={{backgroundColor: "#1d6ed7"}}>
                     Send
                 </button>
             </form>
