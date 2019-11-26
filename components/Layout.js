@@ -9,7 +9,7 @@ function Layout({children}) {
 
             <div className="flex flex-1 h-screen overflow-x-hidden">
                 <Sidebar/>
-                <main className="bg-gray-200 min-h-full min-w-full w-full h-full p-6">
+                <main className="bg-gray-200 min-h-full w-full h-full p-6">
                     {children}
                 </main>
             </div>
