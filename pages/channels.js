@@ -24,7 +24,7 @@ const Channels = () => {
     return (
         <Layout>
             <div>
-                <h2 className="text-2xl text-orange-500 font-semibold leading-loose tracking-wider mb-5">
+                <h2 className="text-2xl text-orange-600 font-semibold leading-loose tracking-wider mb-5">
                     Manage Engagement Channels
                 </h2>
 

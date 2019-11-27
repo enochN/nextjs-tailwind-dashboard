@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <Layout>
             <div className="flex flex-col h-full">
-                <h2 className="text-2xl text-orange-500 font-semibold leading-loose tracking-wider mb-5 align-text-top">
+                <h2 className="text-2xl text-orange-600 font-semibold leading-loose tracking-wider mb-5 align-text-top">
                     Conversations
                 </h2>
 

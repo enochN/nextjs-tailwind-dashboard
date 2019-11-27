@@ -21,7 +21,7 @@ function Header() {
 
             <div className="flex items-center justify-end h-full">
                 <button
-                    className="rounded h-full px-4 flex items-center bg-red-600 text-white focus:bg-red-700 hover:bg-red-700 ">
+                    className="rounded h-full px-4 flex items-center bg-red-700 text-white font-semibold tracking-wider focus:bg-red-700 hover:bg-red-700 ">
                     Test Mode
                 </button>
                 <button className="h-full rounded  pl-2 pr-2 flex items-center justify-end">
