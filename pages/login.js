@@ -18,10 +18,10 @@ function LoginPage({}) {
                 backgroundPosition: "right bottom"
             }}>
                 <form className="p-4 w-full flex flex-col font-semibold">
-                    <input type="text"
+                    <input name="username" aria-label="User Name" type="text"
                            className="mt-8 pt-4 pb-1 font-semibold  border-b-2 focus:border-indigo-500 outline-none"
                            placeholder="Username"/>
-                    <input type="password"
+                    <input name="password" aria-label="Password" type="password"
                            className="mt-8 pt-4 pb-1 font-semibold  border-b-2 focus:border-indigo-500 outline-none"
                            placeholder="Password"/>
                     <button type="submit"
