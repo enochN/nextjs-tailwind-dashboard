@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function LoginPage({}) {
+function LoginPage() {
     return (
         <div className="flex h-screen w-full">
             <div className="bg-orange-600 w-3/5 "
@@ -27,7 +27,7 @@ function LoginPage({}) {
                     <button type="submit"
                             className="mt-12 p-4 bg-indigo-600 rounded-lg font-bold tracking-widest text-indigo-100 hover:text-white focus:text-white focus:bg-indigo-700 outline-none focus:outline-none "> Login
                     </button>
-                    <p className="mt-10 text-center font-semibold">Don't have an account? <a href="#"
+                    <p className="mt-10 text-center font-semibold">Don&apos;t have an account? <a href="#"
                                                                                              className="text-blue-700 cursor-pointer">Sign
                         Up</a></p>
                 </form>
