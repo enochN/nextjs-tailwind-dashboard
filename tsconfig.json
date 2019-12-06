@@ -3,5 +3,12 @@
     "baseUrl": "./components",
     "noEmit": true,
     "jsx": "react"
-  }
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": [
+    "./node_modules/**/*",
+    "./static/**/*"
+  ]
 }
