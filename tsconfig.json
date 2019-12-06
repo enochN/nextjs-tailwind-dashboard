@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./components",
+    "noEmit": true,
+    "jsx": "react"
+  }
+}

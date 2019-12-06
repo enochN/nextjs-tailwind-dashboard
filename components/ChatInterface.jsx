@@ -1,5 +1,11 @@
 import React from 'react';
 
+function add(a,b){
+    return a + b;
+}
+
+console.log(add(2, "yaa"));
+
 function ChatInterface() {
 
     return (

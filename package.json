@@ -6,7 +6,8 @@
     "build:css": "postcss static/styles/base.styles.css -o static/styles/base.css",
     "build:css:watch": "postcss static/styles/base.styles.css -o static/styles/base.css --watch",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "check-types": "tsc"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "eslint": "^6.7.1",
-    "eslint-plugin-react": "^7.17.0"
+    "eslint-plugin-react": "^7.17.0",
+    "typescript": "^3.7.3"
   }
 }
